@@ -1,0 +1,134 @@
+[
+  {
+    "id": "SR-01 respuesta fluida con pocos errores",
+    "input": {
+      "expected": [
+        "D",
+        "I",
+        "s",
+        "I",
+        "z",
+        "m",
+        "a",
+        "I",
+        "f",
+        "r",
+        "s",
+        "t",
+        "d",
+        "Z",
+        "a",
+        "b"
+      ],
+      "recognized": [
+        "D",
+        "I",
+        "s",
+        "I",
+        "s",
+        "m",
+        "a",
+        "I",
+        "f",
+        "r",
+        "s",
+        "d",
+        "Z",
+        "a",
+        "p"
+      ],
+      "words": 118,
+      "duration_s": 60,
+      "pause_s": 9,
+      "fillers": 2
+    },
+    "expected": {
+      "per": 0.1875,
+      "pronunciation": 81.2,
+      "wpm": 138.8,
+      "fluency": 100.0,
+      "filler_rate_per_100w": 1.69,
+      "clean_speech": 83.1,
+      "overall": 87.2,
+      "level": "C1_estimado"
+    }
+  },
+  {
+    "id": "SR-02 lenta y con muchas pausas",
+    "input": {
+      "expected": [
+        "D",
+        "I",
+        "s",
+        "I",
+        "z",
+        "m",
+        "a",
+        "I",
+        "f",
+        "r",
+        "s",
+        "t",
+        "d",
+        "Z",
+        "a",
+        "b"
+      ],
+      "recognized": [
+        "D",
+        "I",
+        "s",
+        "I",
+        "s",
+        "m",
+        "a",
+        "I",
+        "f",
+        "r",
+        "s",
+        "d",
+        "a",
+        "p"
+      ],
+      "words": 70,
+      "duration_s": 60,
+      "pause_s": 21,
+      "fillers": 6
+    },
+    "expected": {
+      "per": 0.25,
+      "pronunciation": 75.0,
+      "wpm": 107.7,
+      "fluency": 67.6,
+      "filler_rate_per_100w": 8.57,
+      "clean_speech": 14.3,
+      "overall": 60.6,
+      "level": "B1_estimado"
+    }
+  },
+  {
+    "id": "SR-03 levenshtein",
+    "input": {
+      "a": [
+        "k",
+        "i",
+        "t",
+        "t",
+        "e",
+        "n"
+      ],
+      "b": [
+        "s",
+        "i",
+        "t",
+        "t",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "expected": {
+      "distance": 3
+    }
+  }
+]
